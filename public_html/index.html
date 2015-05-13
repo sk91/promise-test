@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Promise Test</title>
+	<link rel="stylesheet" href="css/style.css" type='text/css'/>
+</head>
+<body>
+	<div id="container">
+		<h1>Promise Test</h1>
+
+		<button id="start">Start</button>
+
+		<p>
+			<label for="users-progress">Checking online users:</label>
+			<progress id="users-progress" value="0" max="100"></progress>
+		</p>
+
+		<p>
+
+
+		<p>
+			<label for="online-users-progress">Online users <span id='online-users'>0/100</span></label>
+			<progress id='online-users-progress' value="0" max="100"></progress>
+		</p>
+
+		<p id="status"></p>
+
+		<p class="notice">
+			<strong>Note:</strong> The progress tag is not supported in Internet Explorer 9 and earlier versions, or in Safari for Windows.
+		</p>
+	</div>
+	<script type="text/javascript" src='js/jquery-1.8.3.min.js'></script>
+	<script type="text/javascript" src='js/script.js'></script>
+</body>
+</html>
