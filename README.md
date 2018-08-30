@@ -9,7 +9,7 @@ The requests can be user_index (0 to 100) and the response tells whether he
 is online or not. Make the server side to return random 50/50% to be online or
 not.
 
-##Install
+## Install
 
 ```
 git clone https://github.com/sk91/promise-test.git
@@ -18,6 +18,6 @@ npm start
 ```
 
 
-##Use
+## Use
 
 Open ``http://localhost:3000`` in the browser
